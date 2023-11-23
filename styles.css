@@ -1,0 +1,48 @@
+body {
+    font-family: georgia,serif;
+    background-color: rgb(143, 208, 151);
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: rgb(232, 228, 228);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    margin-left: 10px;
+}
+
+#productName, #expiryDate {
+    margin-left: 5px;
+}
+
+button {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#productList {
+    margin-top: 20px;
+}
+
+.product {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.product button {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
